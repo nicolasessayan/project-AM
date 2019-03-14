@@ -94,6 +94,11 @@ span {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.image-grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .image {
   overflow: hidden;
   width: calc(100% - 20px);
@@ -101,7 +106,6 @@ span {
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(150,150,150,1);
   background-color: white;
-  overflow: hidden;
 }
 
 /*.image:hover {
