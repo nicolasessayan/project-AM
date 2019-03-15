@@ -96,7 +96,11 @@ span {
 
 .image-grid2 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 3fr;
+}
+
+.personae {
+  padding: 0 5px;
 }
 
 .image {
